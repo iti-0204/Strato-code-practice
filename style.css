@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+}
+
+/* .header-top {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.logo-img {
+  height: 40px;
+  width: 120px;
+  padding: 20px 0;
+}
+
+.header-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  margin-left: 30px;
+}
+
+.main-visual {
+  margin-bottom: 80px;
+  width: 100%;
+}
+
+/* ABOUT */
+.about,
+.bicycle {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 30px;
+  border-bottom: solid 1px #383e45;
+  margin-bottom: 50px;
+}
+
+.about-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.about-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.about-name {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.about-profile {
+  font-size: 14px;
+}
+
+/* bycicle */
+.bicycle-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.bicycle-img {
+  width: 280px;
+}
+
+.bicycle-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.bicycle-profile {
+  font-size: 14px;
+}
+
+.bicycle-content-center {
+  margin: 0 10px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 8px;
+}
