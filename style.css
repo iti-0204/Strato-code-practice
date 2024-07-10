@@ -9,21 +9,19 @@
   margin: 0 10%;
 }
 
-/* .header-top {
-  display: flex;
-  justify-content: space-around;
-} */
-
-.logo-img {
+.header-img {
   height: 40px;
   width: 120px;
   padding: 20px 0;
 }
 
 .header-nav {
-  list-style: none;
   display: flex;
   align-items: center;
+}
+
+.header-space {
+  margin-left: 20px;
 }
 
 .header-list {
@@ -97,6 +95,7 @@
   margin: 0 10px;
 }
 
+/* .footer */
 .footer {
   text-align: center;
 }
